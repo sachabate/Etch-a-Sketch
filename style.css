@@ -1,1 +1,39 @@
 /* CSS style sheet */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+    padding: 40px 0;
+    font-size: 24px;
+}
+
+#content {
+    display: flex;
+}
+
+#leftBar, #rightBar {
+    height: auto;
+    width: 50px;
+    background-color: aquamarine;
+    margin: 0 75px;
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 384px;
+    height: 384px;
+    outline: 1px solid black;
+}
+
+.gridElement {
+    user-select: none;
+    width: 24px;
+    height: 24px;
+    outline: 1px solid black;
+}
