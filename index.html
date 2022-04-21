@@ -15,10 +15,28 @@
     <div id="wrapper">
         <!-- <div id="title">Etch-a-Sketch</div> -->
         <div id="content">
-            <div id="leftBar"></div>
+            <div id="leftBar">
+                <p class="leftTitle">Title</p>
+                <input type="color" id="colorSelect" value="#000000">
+                <button class="button">Button 1</button>
+                <button class="button">Button 2</button>
+                <button class="button">Button 3</button>
+                <div>
+                    <div id="gridSizeContainer">
+                        <button id="24" class="gridButton button">24px</button>
+                        <button id="48" class="gridButton button">48px</button>
+                        <button id="64" class="gridButton button">64px</button>
+                        <button id="96" class="gridButton button">96px</button>
+                    </div>
+                    <div class="custom">
+                        <label for="gridSize">Custom</label>
+                        <input type="text" id="gridSize" minlength="1" maxlength="2" size="3">
+                    </div>
+                </div>
+            </div>
             <div id="grid"></div>
             <div id="rightBar">
-                <button id="shake">
+                <button id="shake" class="button">
                     <div>S</div>
                     <div>H</div>
                     <div>A</div>

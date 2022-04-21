@@ -15,6 +15,12 @@ body {
     font-size: 30px;
 }
 
+.button {
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    /* border-radius: 4px; */
+}
+
 #title-one {
     margin: 15px;
 }
@@ -71,7 +77,30 @@ body {
 /* End Grid Element */
 
 #leftBar {
-    width: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 15px;
+}
+
+#gridSizeContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* padding: 8px; */
+}
+
+.gridButton {
+    margin: 8px;
+}
+
+.custom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
 }
 
 #rightBar {
